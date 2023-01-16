@@ -1,0 +1,126 @@
+*{padding: 0; margin: 0; box-sizing: border-box;}
+
+/* common-css */
+img{
+    width: 100%;
+}
+
+
+
+/* header-part */
+.header-part {justify-content: space-between;align-items: center;}
+.item-list {list-style: none;}
+.list-link { color: white;text-decoration: none; padding: 0px 31px;}
+.header-icon-link { color: white; font-size: 19px;padding: 0px 6px;}
+.header-button { border: none;}
+.button-link { text-decoration: none; border: 2px solid #7a53a1; padding: 6px 25px;}
+
+
+/* banner-part */
+.banner-part{ background-image: url(../image/banner.jpg); background-repeat: no-repeat; background-size: cover;}
+.banner-title { text-align: center; font-size: 54px; color: lightskyblue;}
+.banner-button { border: none; background-color: #574385;padding: 11px 27px;}
+.banner-buton-link { color: white;text-decoration: none;}
+.banner-text {padding: 7% 0px 11% 0px; text-align: center;}
+
+
+/* section-contain */
+.section-contain {background-color: black; padding: 100px 0px;}
+.card { padding: 35px 0px;border-radius: unset;}
+.contain-icon { font-size: 26px; color: #29a8bd;}
+.round-arrow { font-size: 21px; color: gray;}
+.contain-part { margin: 0px 15%;}
+.box-part {  margin-bottom: 22px;}
+.contain-text { color: gray;position: relative;}
+.card-design::after { content: ''; position: absolute; width: 130px;height: 9px; background-color: #9a8cf8;transform: rotate(90deg);left: -71px; top: 20%;}
+.card-design::before {content: ''; position: absolute;width: 130px; height: 9px; background-color: #5b4caf; top: -10px; left: -10px;}
+.buttom-design::after {content: '';position: absolute;width: 130px;height: 9px;background-color: #5c4bac;bottom: -9px;right: -1px;}
+.buttom-design::before {content: ''; position: absolute;width: 130px; height: 9px; background-color: #9b8bf4; right: -71px;transform: rotate(90deg);bottom: 52px;}
+
+
+/* about-part */
+.about-section { padding: 100px 0px;}
+.about-para {color: gray;}
+.about-title { font-size: 37px;}
+.about-contain { position: relative;}
+.about-title::before {position: absolute; content: ''; width: 79px; height: 5px; background-color: #38a7bc; top: -15px;}
+img.about-img { height: 352px;}
+
+
+/* professional-section */
+section.profess-sec { background-color: #1a1818;  padding: 100px 0px;}
+.profess-icon { font-size: 36px;color: #38a7bc;}
+.pro-img {  height: 373px;}
+.contain-profess-sec { position: relative;}
+.pro-about { padding-top: 22px;}
+
+
+/* feature-section */
+.feature-section { background-color: black;  padding: 100px 0px;}
+.feature-title {  font-size: 38px;}
+button.accordion-button { background-color:#212529;color: white; border: none; text-align: center;}
+.accordion-item{ max-width: 679px;}
+div#accordionFlushExample { margin: 0px 20%;  padding-top: 42px;}
+.accordion-button::after{ display: none;}
+.plus-icon {background-color: #212529;color:#38a7bc;padding: 4px;font-size: 22px;}
+button.accordion-button { justify-content: space-between;}
+.accordion-button{ padding: 8px 25px !important;}
+p{margin:0 !important;}
+
+
+
+
+/* portfolio-section */
+.portfolio-section { background-color: #111010; padding: 72px 0px;}
+.portfolio-img {  height: 327px;object-fit: cover;}
+
+/* vedio-part */
+.section-video { background-color: black; padding: 80px 0px;}
+
+/* review-part */
+.section-review { background-color: #111010; padding: 75px 0px;}
+.team-img { width: 77px; height: 74px;border-radius: 67px;}
+.review-box { background-color: black; padding: 38px 12px;}
+li { list-style: none;padding: 0px 7px;}
+.star-icon { color: #43a6bb;}
+.section-review .row { justify-content: center;}
+.icon-part { justify-content: center; margin: 0px 39px 0px 0px;}
+
+/* contact-part */
+.contact-part{
+    position: relative;
+    padding: 0px 16%;
+}
+.section-contact {
+    background-color: black;
+    padding: 80px 0px;
+}
+.from-name {
+    background-color: black;
+    width: 304px;
+    border: 2px solid gray;
+    padding: 7px 9px;
+    border-radius: 4px;
+}
+.contact-link {
+    background-color: #574283;
+    padding: 10px 22px;
+    text-decoration: none;
+    color: white;
+}
+.row{
+    align-items: center;
+}
+
+/* contact-details */
+.contact-number {
+    background-color: black;
+    padding: 103px 0px;
+}
+.telephone-details {
+    padding: 0px 14%;
+}
+/* footer */
+.footer-part {
+    justify-content: space-between;
+}
